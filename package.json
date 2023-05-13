@@ -9,6 +9,7 @@
     "theme"
   ],
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "lerna": "^3.19.0"
   },
   "name": "test-theme"

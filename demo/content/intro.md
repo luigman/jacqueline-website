@@ -1,6 +1,6 @@
 ---
 section: intro
-title: Hello, we can customize this
-description: This looks cool!
-action: Hire me
+title: Hi, I'm Jacqueline
+description: Educaaaation des-ign
+action: Contact
 ---
