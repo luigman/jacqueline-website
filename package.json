@@ -12,5 +12,8 @@
     "gh-pages": "^5.0.0",
     "lerna": "^3.19.0"
   },
-  "name": "test-theme"
+  "name": "test-theme",
+  "dependencies": {
+    "react-router": "^6.15.0"
+  }
 }

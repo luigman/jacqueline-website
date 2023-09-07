@@ -7,6 +7,9 @@ import Tag from "components/common/Tag";
 import SkillIllustration from "components/illustrations/SkillIllustration";
 //import {Timeline, TimelineItem, TimelineSeparator, TimelineDot, TimelineConnector, TimelineContent} from '@mui/lab/Timeline';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import Resume from '../../../content/resume.pdf';
+import purdue_logo from "./images/purdue_logo.png";
+import renaissance_logo from "./images/renaissance_logo.jpg";
 import 'react-vertical-timeline-component/style.min.css';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from "./styles";
 
@@ -34,17 +37,21 @@ export default () => {
         </Thumbnail>
         <Details>
           <h1>{title}</h1>
-          <Tag>Articulate Storyline</Tag>
-          <Tag>Design</Tag>
+          <Tag>Artiucate Storyline</Tag>
+          <Tag>Instructional Design</Tag>
+          <Tag>E-Learning Development</Tag>
+          <Tag>Action Mapping</Tag>
+          <Tag>Adult Learning Theories</Tag>
           <p>{description}</p>
-          <Button as={AnchorLink} href="#contact">
+          <a href={Resume} target = "_blank" rel="noopener noreferrer">
+          <Button href={Resume} target = "_blank">
             {action}
-          </Button>
+          </Button></a>
         </Details>
         </SkillsWrapper>
 
         <VerticalTimeline>
-  <VerticalTimelineElement
+  {/* <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(144, 200, 0)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
@@ -53,88 +60,60 @@ export default () => {
     // should have one block for teaching, and one for purdue
     // icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+    <h3 className="vertical-timeline-element-title">Sales Development Representative | Illuminate Instructor</h3>
+    <h4 className="vertical-timeline-element-subtitle">Renaissance Learning - Remote</h4>
     <p>
       Creative Direction, User Experience, Visual Design, Project Management, Team Leading
     </p>
-  </VerticalTimelineElement>
+  </VerticalTimelineElement> */}
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2010 - 2011"
+    date="2022 - present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    // icon={<WorkIcon />}
+    // icon={<img  src={renaissance_logo} alt="fireSpot"/>}
   >
-    <h3 className="vertical-timeline-element-title">Art Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <h3 className="vertical-timeline-element-title">Sales Development Representative | Illuminate Instructor</h3>
+    <h4 className="vertical-timeline-element-subtitle">Renaissance Learning - Remote (Seattle, WA)</h4>
     <p>
       Creative Direction, User Experience, Visual Design, SEO, Online Marketing
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2008 - 2010"
+    date="2020 - 2021"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
+    <h3 className="vertical-timeline-element-title">Fifth Grade Teacher</h3>
+    <h4 className="vertical-timeline-element-subtitle">Osseo Area School District - Brooklyn Park, MN</h4>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2006 - 2008"
+    date="2019 - 2020"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<WorkIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
+    <h3 className="vertical-timeline-element-title">Fifth Grade Teacher</h3>
+    <h4 className="vertical-timeline-element-subtitle">Sun Prairie School District - Sun Prairie, WI</h4>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="April 2013"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+    date="2019"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     // icon={<SchoolIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-    <p>
-      Strategy, Social Media
-    </p>
+    <h3 className="vertical-timeline-element-title">Third Grade Teacher</h3>
+    <h4 className="vertical-timeline-element-subtitle">Delphi Community Schools - Delphi, IN</h4>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
-    date="November 2012"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    // icon={<SchoolIcon />}
+    date="2014-2018"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    // icon={<img  src={purdue_logo} alt="fireSpot"/>}
   >
-    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design
-    </p>
+    <h3 className="vertical-timeline-element-title">B.A. Elementary Education</h3>
+    <h4 className="vertical-timeline-element-subtitle">Purdue University - West Lafayette, IN</h4>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="2002 - 2006"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    // icon={<SchoolIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-    <p>
-      Creative Direction, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-    // icon={<StarIcon />}
-  />
 </VerticalTimeline>
     </Wrapper>
   );

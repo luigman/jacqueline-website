@@ -1,8 +1,9 @@
+// Edit the file in Demo. Not this one.
 module.exports = {
   defaultTitle: "John Doe",
   logo: "https://gatsby-theme-portfolio.smakosh.com/favicon/favicon-512.png",
   author: "John Doe",
-  url: "https://gatsby-theme-portfolio.smakosh.com",
+  url: "https://jacquelinemwilliams.com",
   legalName: "John Doe",
   defaultDescription: "I’m John and I’m a Backend & Devops engineer!",
   socialLinks: {
@@ -33,5 +34,5 @@ module.exports = {
     phone: "phone number"
   },
   foundingDate: "2019",
-  recaptcha_key: "6Lfe44cmAAAAAMXPH3Zev5pKdGT1N1etCgbscA5V"
+  recaptcha_key: "6Lc7QogmAAAAACpazbiu7eSvFKoyyC5-AJKXwK0p"
 };

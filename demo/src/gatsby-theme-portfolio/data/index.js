@@ -2,7 +2,7 @@ module.exports = {
   defaultTitle: "Jacqueline Williams",
   logo: "https://gatsby-theme-portfolio.smakosh.com/favicon/favicon-512.png",
   author: "Jacqueline Williams",
-  url: "https://luigman.github.io",
+  url: "https://jacquelinemwilliams.com",
   legalName: "Jacqueline Williams",
   defaultDescription: "I’m Jacqueline and I’m an Instructional Designer!",
   socialLinks: {
@@ -29,9 +29,9 @@ module.exports = {
     // zipCode: "ZipCode"
   },
   contact: {
-    email: "email",
+    email: "jacqueline.williams22@gmail.com",
     phone: "phone number"
   },
   foundingDate: "2018",
-  recaptcha_key: "6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN"
+  recaptcha_key: "6Lc7QogmAAAAACpazbiu7eSvFKoyyC5-AJKXwK0p"
 };

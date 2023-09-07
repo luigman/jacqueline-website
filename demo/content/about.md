@@ -1,6 +1,6 @@
 ---
 section: about
 title: Skills
-description: Artiucate Storyline, boom, boom, pow
+description: 
 action: Resume
 ---
