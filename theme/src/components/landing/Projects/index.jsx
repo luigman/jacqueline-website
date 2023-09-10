@@ -46,13 +46,13 @@ export default () => {
               gap={1}
               stretch
             >
-              <Card as="a" href={"url"} target="_blank" rel="noopener noreferrer">
+              <Card as="a" href={`/${action}/story.html`} target="_blank" rel="noopener noreferrer">
                 <Content>
                   <h4>{title}</h4>
                   <p>{description}</p>
                 </Content>
                 <Thumbnail>
-                  <img src={require("assets/images/" + action)} alt="BigCo Inc. logo" />
+                  <img src={`/${action}/${action}_icon.png`} alt="icon" />
                 </Thumbnail>
               </Card>
             </Item>

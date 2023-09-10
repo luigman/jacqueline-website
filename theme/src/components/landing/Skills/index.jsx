@@ -69,7 +69,7 @@ export default () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="2022 - present"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,150,136)', color: '#fff' }}
     // icon={<img  src={renaissance_logo} alt="fireSpot"/>}
   >
     <h3 className="vertical-timeline-element-title">Sales Development Representative | Illuminate Instructor</h3>
@@ -81,7 +81,7 @@ export default () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="2020 - 2021"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,150,136)', color: '#fff' }}
     // icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">Fifth Grade Teacher</h3>
@@ -90,7 +90,7 @@ export default () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="2019 - 2020"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,150,136)', color: '#fff' }}
     // icon={<WorkIcon />}
   >
     <h3 className="vertical-timeline-element-title">Fifth Grade Teacher</h3>
@@ -99,7 +99,7 @@ export default () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="2019"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,150,136)', color: '#fff' }}
     // icon={<SchoolIcon />}
   >
     <h3 className="vertical-timeline-element-title">Third Grade Teacher</h3>
@@ -108,7 +108,7 @@ export default () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="2014-2018"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(0,150,136)', color: '#fff' }}
     // icon={<img  src={purdue_logo} alt="fireSpot"/>}
   >
     <h3 className="vertical-timeline-element-title">B.A. Elementary Education</h3>
