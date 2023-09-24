@@ -9,7 +9,7 @@ module.exports = {
   socialLinks: {
     twitter: "http://www.twitter.com/smakosh",
     github: "https://github.com/smakosh",
-    linkedin: "https://www.linkedin.com/in/ismail-ghallou-630149122/",
+    linkedin: "https://www.linkedin.com/in/jacquelinewilliams22/",
     instagram: "https://instagram.com/smakosh19",
     youtube: "https://www.youtube.com/user/smakoshthegamer",
     google: "https://plus.google.com/u/0/+IsmailSmakoshGhallou",

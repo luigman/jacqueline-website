@@ -5,7 +5,8 @@ export const Links = styled.div`
   align-items: center;
 
   svg {
-    width: 24px;
+    width: 120px;
+    height: 64px;
   }
 
   a {
